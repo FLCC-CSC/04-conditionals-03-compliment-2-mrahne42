@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Mike Rahne
+# DATE: 10/6/2025 
+# BRIEF DESCRIPTION: My compliment_02 submission 
 
 
 
@@ -15,7 +15,23 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    comp_attempt()
+def comp_attempt():
 
+                print()
+                choice = str(input('Would you like a compliment? '))
+                 
+                if choice == "yes":
+        
+                    print('You have wonderful eyes.')
+                    print('Thank you for playing.')
+                else:
+                    print('No compliment for you!')
+                    print('Thank you for playing.')
+
+
+main() 
 
 
 
@@ -71,7 +87,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+# My answer will depend on if this passes, but if it does, then no.
 
 
 
